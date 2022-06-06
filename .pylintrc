@@ -1,0 +1,14 @@
+[pylint]
+disable=
+    expression-not-assigned,
+    invalid-name,
+    line-too-long,
+    missing-class-docstring,
+    missing-function-docstring,
+    missing-module-docstring,
+good-names=
+    template-python
+ignore=
+    __init__.py,
+notes=
+    FIXME,
