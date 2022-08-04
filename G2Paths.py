@@ -7,7 +7,7 @@ import textwrap
 # a G2Module.ini or SENZING_ENGINE_CONFIGURATION_JSON
 if 'SENZING_ETC_PATH' not in os.environ and 'SENZING_ROOT' not in os.environ and 'SENZING_ENGINE_CONFIGURATION_JSON' not in os.environ:
 
-    print(textwrap.dedent(f'''\n\
+    print(textwrap.dedent('''\n\
     ERROR: Unable to locate a G2Module.ini file or SENZING_ENGINE_CONFIGURATION_JSON environment variable.
     
            - If using a Senzing project on a bare metal install, source the setupEnv file for the project
