@@ -5,8 +5,8 @@ import textwrap
 
 # The Senzing python tools call G2Paths before starting engine to locate the engine configuration. Error if can't locate
 # a G2Module.ini or SENZING_ENGINE_CONFIGURATION_JSON
-if ('SENZING_ETC_PATH' not in os.environ \
-        and 'SENZING_ROOT' not in os.environ \
+if ('SENZING_ETC_PATH' not in os.environ
+        and 'SENZING_ROOT' not in os.environ
         and 'SENZING_ENGINE_CONFIGURATION_JSON' not in os.environ) \
         or os.environ.get('SENZING_ENGINE_CONFIGURATION_JSON') is not None:
 
